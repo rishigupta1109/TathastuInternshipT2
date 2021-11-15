@@ -1,0 +1,49 @@
+*{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.navcontainer{
+    background:black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.404);
+}
+.logo{
+    height:5rem;
+   
+}
+.link{
+    color: rgb(221, 214, 214);
+    text-decoration: white;
+    font-size: 1.4rem;
+    margin: 2rem 3rem;
+}
+.link:hover{
+     color: white;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.link.active{
+    color: white;
+    text-decoration: white underline;
+     text-underline-offset: 1rem;
+}
+.menuicon{
+    height:3rem;
+    transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.mobilemenu{
+    height:100%;
+    border-top: 1px solid white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    position: absolute;
+    z-index: 4;
+}

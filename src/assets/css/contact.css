@@ -1,0 +1,28 @@
+.contact{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+.contact form button{
+    padding:1rem 2rem;
+    margin :1rem 0rem;
+    background-color: black;
+    color: white;
+}
+.contact form button:hover{
+    background-color: #0fcff9;
+}
+input[type="text"],textarea,input[type="number"],input[type="email"]{
+    padding: 0.3rem 0.4rem;
+    font-size: large;
+    border-radius: 1rem;
+}
